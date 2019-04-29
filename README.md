@@ -1,12 +1,9 @@
-# ADFSRulez
-Some random ADFS rulez and stuff... 
-
 ## CreateCustomCanvasLogin.psm1 
 This could work for most likely anything that needs this kind of logic. 
 
 ### Use case 
 So, you need to provide a claim to a RP for a set of users but the claim should be composed of different attributes for different set of users. 
-The case that proned the creation of this function was that for a user to be able to login in to Canvas as a student, we needed the the login name in Canvas to match a value in our SIS system, but for faculty and staff, this value does not exist. How do we solve this? 
+The case that proned the creation of this function was that for a user to be able to login in to Canvas as a student, we needed the login name in Canvas to match a value in our SIS system, but for faculty and staff, this value does not exist. How do we solve this? 
 Simple, just create custom claim rules with some filters! 
 
 **In more detail:**
