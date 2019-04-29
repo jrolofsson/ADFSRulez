@@ -14,7 +14,7 @@ All students are in a parent AD group called Students (easy right?) and has the 
 All faculty and staff are in AD group called Employee and the LMS would identify the login ID of the person to another value (in this case UPN from the AD). 
 
 ### So what happens when I run the script? 
-When you import and run the script you will be prompted for some values, for the simplicity the AD search commands needed to populate the script isn't included but should be fairly easy to get. 
+When you import and run the script you will be prompted for some values, for the simplicity of the script, the AD search commands needed to populate the script isn't included in the logic, but is included in this documentation so it should be fairly easy to get. 
 
 After you've supplied the values, the script will create a .csv file that can be used to create the custom claims in ADFS. 
 
