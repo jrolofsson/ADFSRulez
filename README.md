@@ -40,4 +40,4 @@ If everything goes according to plan, you will now have a file named CustomCanva
 This will not cover the process of actually creating it in ADFS but you could probably just export your current claims for that RP, add this to the end of that file and import it back in again. **_You should of course try this in a testing environment first_**. 
 
 ## Disclaimer
-_Ofcourse this is like any other thing you find on the internet - as is and you should probably know what your doing before you go ahead and do it. But this is kinda harmless, just creating a a file with some attributes..._
+_Ofcourse this is like any other thing you find on the internet - as is and you should probably know what your doing before you go ahead and do it. But this is kinda harmless, just creating a file with some attributes..._
